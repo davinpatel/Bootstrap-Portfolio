@@ -46,11 +46,11 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #FFFFFF;
 }
 hr.star-light:after {
   background-color: #000000;
-  color: white;
+  color: #FFFFFF;
 }
 hr.star-primary {
   border-color: #FFFFFF;
@@ -121,7 +121,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #000000;
+  color: white;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -129,13 +129,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #000000;
+  background: blue;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #000000;
+  background: blue;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -147,7 +147,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-toggle:focus {
   background-color: #000000;
   color: white;
-  border-color: #000000;
+  border-color: #FFFFFF;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -219,7 +219,7 @@ section.success {
   text-align: center;
   top: 50%;
   margin-top: -12px;
-  color: white;
+  color: #000000;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
@@ -400,7 +400,7 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-success .badge {
   color: #000000;
-  background-color: white;
+  background-color: red;
 }
 .btn-social {
   display: inline-block;
